@@ -32,7 +32,7 @@ let productsOne = [
         id : 1,
         type: 'adidas' ,
         name: 'Astronaut T-Shirts',
-        imgUrl : '<img src="../t-shirses/t-shirt (1).jpg" alt="">',
+        imgUrl : '<img src="./t-shirses/t-shirt (1).jpg" alt="">',
         price : 34,
         qnt : 1
     },  
@@ -40,7 +40,7 @@ let productsOne = [
         id : 2,
         type: 'adidas' ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : '<img src="../t-shirses/t-shirt (2).jpg" alt="">',
+        imgUrl : '<img src="./t-shirses/t-shirt (2).jpg" alt="">',
         price : 32,
         qnt : 1
 
@@ -50,7 +50,7 @@ let productsOne = [
         id : 3,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : '<img src="../t-shirses/t-shirt (3).jpg" alt="">',
+        imgUrl : '<img src="./t-shirses/t-shirt (3).jpg" alt="">',
         price : 65,
         qnt : 1
 
@@ -60,7 +60,7 @@ let productsOne = [
         id : 4,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : '<img src="../t-shirses/t-shirt (4).jpg" alt="">',
+        imgUrl : '<img src="./t-shirses/t-shirt (4).jpg" alt="">',
         price : 12,
         qnt : 1
 
@@ -70,7 +70,7 @@ let productsOne = [
         id : 5,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : '<img src="../t-shirses/t-shirt (5).jpg" alt="">',
+        imgUrl : '<img src="./t-shirses/t-shirt (5).jpg" alt="">',
         price : 78,
         qnt : 1
 
@@ -80,7 +80,7 @@ let productsOne = [
         id : 6,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : '<img src="../t-shirses/t-shirt (6).jpg" alt="">',
+        imgUrl : '<img src="./t-shirses/t-shirt (6).jpg" alt="">',
         price : 34,
         qnt : 1
 
@@ -90,7 +90,7 @@ let productsOne = [
         id : 7,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : '<img src="../t-shirses/t-shirt (7).jpg" alt="">',
+        imgUrl : '<img src="./t-shirses/t-shirt (7).jpg" alt="">',
         price : 87,
         qnt : 1
 
@@ -100,7 +100,7 @@ let productsOne = [
         id : 8,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : '<img src="../t-shirses/t-shirt (8).jpg" alt="">',
+        imgUrl : '<img src="./t-shirses/t-shirt (8).jpg" alt="">',
         price : 21,
         qnt : 1
 
@@ -263,14 +263,14 @@ let productsTwo = [
         id : 9,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (9).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (9).jpg" alt="">`,
         price : 34
     },  
     {
         id : 10,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (10).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (10).jpg" alt="">`,
         price : 32
     },     
     
@@ -278,7 +278,7 @@ let productsTwo = [
         id : 11,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (11).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (11).jpg" alt="">`,
         price : 65
     },     
     
@@ -286,7 +286,7 @@ let productsTwo = [
         id : 12,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (12).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (12).jpg" alt="">`,
         price : 12
     },     
     
@@ -294,7 +294,7 @@ let productsTwo = [
         id : 13,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (13).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (13).jpg" alt="">`,
         price : 78
     },     
     
@@ -302,7 +302,7 @@ let productsTwo = [
         id : 14,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (14).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (14).jpg" alt="">`,
         price : 34
     },     
     
@@ -310,7 +310,7 @@ let productsTwo = [
         id : 15,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (15).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (15).jpg" alt="">`,
         price : 87
     },     
     
@@ -318,7 +318,7 @@ let productsTwo = [
         id : 16,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (11).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (11).jpg" alt="">`,
         price : 21
     },       
 ];
@@ -417,14 +417,14 @@ let chackItemProducts = [
         id : 1,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (1).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (1).jpg" alt="">`,
         price : 34
     },  
     {
         id : 2,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (2).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (2).jpg" alt="">`,
         price : 32
     },     
     
@@ -432,7 +432,7 @@ let chackItemProducts = [
         id : 3,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (3).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (3).jpg" alt="">`,
         price : 65
     },     
     
@@ -440,7 +440,7 @@ let chackItemProducts = [
         id : 4,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (4).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (4).jpg" alt="">`,
         price : 12
     },     
     
@@ -448,7 +448,7 @@ let chackItemProducts = [
         id : 5,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (5).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (5).jpg" alt="">`,
         price : 78
     },     
     
@@ -456,7 +456,7 @@ let chackItemProducts = [
         id : 6,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (6).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (6).jpg" alt="">`,
         price : 34
     },     
     
@@ -464,7 +464,7 @@ let chackItemProducts = [
         id : 7,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (7).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (7).jpg" alt="">`,
         price : 87
     },     
     
@@ -472,7 +472,7 @@ let chackItemProducts = [
         id : 8,
         type: "adidas" ,
         name: "Cartoon Astronaut T-Shirts",
-        imgUrl : `<img src="../t-shirses/t-shirt (8).jpg" alt="">`,
+        imgUrl : `<img src="./t-shirses/t-shirt (8).jpg" alt="">`,
         price : 21
     },     
 ];
@@ -607,10 +607,10 @@ chackCart.innerHTML =
             ${img}
         </div>
         <div class="images">
-            <img src="../t-shirses/t-shirt (1).jpg" alt="">
-            <img src="../t-shirses/t-shirt (2).jpg" alt="">
-            <img src="../t-shirses/t-shirt (3).jpg" alt="">
-            <img src="../t-shirses/t-shirt (4).jpg" alt="">
+            <img src="./t-shirses/t-shirt (1).jpg" alt="">
+            <img src="./t-shirses/t-shirt (2).jpg" alt="">
+            <img src="./t-shirses/t-shirt (3).jpg" alt="">
+            <img src="./t-shirses/t-shirt (4).jpg" alt="">
         </div>
     </div>
     

@@ -117,7 +117,7 @@ body{
     margin-top: 35px;
 }
 #main-header .content .LiftSide div strong{
-    background-image: url(../images/button.png);
+    background-image: url(./images/button.png);
     background-color: transparent;
     color: rgb(0, 129, 129);
     border: 0;
@@ -586,7 +586,7 @@ display: none;
 /* ----------------------------------------------   repair service styles ---------------------------------------------- */
 #repair-service{
     width: 100%;
-    background-image: url(../banner/banner1.jpg);
+    background-image: url(./banner/banner1.jpg);
     margin: 100px auto;
     background-repeat: round;
     background-size: 1400px;
@@ -627,7 +627,7 @@ display: none;
 
 }
 #offers-news .content .LiftSide{
-    background-image: url(../images/b17.jpg);
+    background-image: url(./images/b17.jpg);
     background-size: cover;
     width:550px;
     line-height: 55px;
@@ -657,7 +657,7 @@ display: none;
     color: orange;
 }
 #offers-news .content .RightSide{
-    background-image: url(../images/b10.jpg);
+    background-image: url(./images/b10.jpg);
     background-size: cover;
     background-position: right;
     width:550px;;
@@ -698,7 +698,7 @@ display: none;
 #offers-news-part-two .content .box2,
 #offers-news-part-two .content .box3
 {
-    background-image: url(../banner/b7\ \(1\).jpg);
+    background-image: url(./banner/b7\ \(1\).jpg);
     background-size: cover;
     background-position: right;
     width:calc(97%/3);
@@ -708,11 +708,11 @@ display: none;
     background-color: red;
 }
 #offers-news-part-two .content .box2{
-    background-image: url(../banner/b4\ \(1\).jpg);
+    background-image: url(./banner/b4\ \(1\).jpg);
     
 }
 #offers-news-part-two .content .box3{
-    background-image: url(../images/b18.jpg);
+    background-image: url(./images/b18.jpg);
 }
 #offers-news-part-two .content .box1 h1,
 #offers-news-part-two .content .box2 h1,
@@ -735,7 +735,7 @@ display: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between; 
-    background-image: url(../images/banner.png); 
+    background-image: url(./images/banner.png); 
     background-repeat: round;
     background-position: top;
     align-items: center;
@@ -1091,14 +1091,14 @@ display: none;
     #offers-news .content .LiftSide,
     #offers-news .content .RightSide
     {
-        background-image: url(../images/b10.jpg);
+        background-image: url(./images/b10.jpg);
         background-size: cover;
         width: 100%;
         line-height: 55px;
         padding: 30px;
     }    
     #offers-news .content .LiftSide {
-        background-image: url(../images/b17.jpg);
+        background-image: url(./images/b17.jpg);
     }
 
     #offers-news-part-two .content{
@@ -1117,7 +1117,7 @@ display: none;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-image: url(../images/banner.png);
+        background-image: url(./images/banner.png);
         background-repeat: round;
         background-position: top;
         align-items: center;
@@ -1173,7 +1173,7 @@ display: none;
     }
     #repair-service {
         width: 100%;
-        background-image: url(../banner/banner1.jpg);
+        background-image: url(./banner/banner1.jpg);
         margin: 100px auto;
         background-repeat: space;
         background-size: 1400px;
@@ -1190,11 +1190,11 @@ display: none;
         background-color: red;
     }
     #offers-news-part-two .content .box2{
-        background-image: url(../banner/b4\ \(1\).jpg);
+        background-image: url(./banner/b4\ \(1\).jpg);
         
     }
     #offers-news-part-two .content .box3{
-        background-image: url(../images/b18.jpg);
+        background-image: url(./images/b18.jpg);
     }
     #offers-news-part-two .content .box1 h1,
     #offers-news-part-two .content .box2 h1,
@@ -1389,7 +1389,7 @@ display: none;
 
     #offers-news .content .LiftSide, 
     #offers-news .content .RightSide{
-        background-image: url(../images/b17.jpg);
+        background-image: url(./images/b17.jpg);
         background-size: 450px;
         width: 350px;
         line-height: 40px;
@@ -1398,7 +1398,7 @@ display: none;
     }   
     
     #offers-news .content .RightSide {
-        background-image: url(../images/b10.jpg);
+        background-image: url(./images/b10.jpg);
     }
 
     #offers-news .content{
@@ -1634,7 +1634,7 @@ display: none;
     }
 
     #main-header .content .LiftSide div strong {
-        background-image: url(../images/button.png);
+        background-image: url(./images/button.png);
         background-position: center;
         background-size: 190px;
         background-color: transparent;
@@ -1685,7 +1685,7 @@ display: none;
     #offers-news .content .LiftSide,
     #offers-news .content .RightSide
     {
-        background-image: url(../images/b10.jpg);
+        background-image: url(./images/b10.jpg);
         background-size: cover;
         width: 100%;
         line-height: 55px;
@@ -1693,7 +1693,7 @@ display: none;
     }    
     
     #offers-news .content .LiftSide {
-        background-image: url(../images/b17.jpg);
+        background-image: url(./images/b17.jpg);
     }
 
     #offers-news-part-two .content{
@@ -1714,7 +1714,7 @@ display: none;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        background-image: url(../images/banner.png);
+        background-image: url(./images/banner.png);
         background-repeat: round;
         background-position: top;
         align-items: center;
@@ -1797,7 +1797,7 @@ display: none;
 
     #repair-service {
         width: 100%;
-        background-image: url(../banner/banner1.jpg);
+        background-image: url(./banner/banner1.jpg);
         margin: 100px auto;
         background-repeat: space;
         background-size: 1400px;
@@ -1939,7 +1939,7 @@ display: none;
         margin-top: 20px;
     }
     #main-header .content .LiftSide div strong{
-        background-image: url(../images/button.png);
+        background-image: url(./images/button.png);
         background-color: transparent;
         background-repeat: no-repeat;
         background-position: center;
@@ -2203,12 +2203,12 @@ display: none;
         background-color: red;
     }
     #offers-news-part-two .content .box2{
-        background-image: url(../banner/b4\ \(1\).jpg);
+        background-image: url(./banner/b4\ \(1\).jpg);
         
     }
     
     #offers-news-part-two .content .box3{
-        background-image: url(../images/b18.jpg);
+        background-image: url(./images/b18.jpg);
     }
     #offers-news-part-two .content .box1 h1,
     #offers-news-part-two .content .box2 h1,
