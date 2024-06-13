@@ -1,0 +1,1696 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Spartan", sans-serif;
+}
+
+body {
+    width: 100%;
+    background-color: rgb(248, 245, 248);
+}
+
+/* ------------------------------------------    Navbar styles   -----------------------------------------------*/
+
+
+
+#navbar {
+    position: fixed;
+    background-color: rgb(229, 221, 231);
+    top: 0;
+    width: 100%;
+}
+
+#navbar .content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+}
+
+
+#navbar .content a img {
+    width: 90px;
+}
+
+#navbar .content ul {
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar .content ul .links {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+#navbar .content .list__icon,
+#navbar .content ul .close__icon {
+    display: none;
+}
+
+#navbar .content ul .links a {
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+}
+
+#navbar .content ul a:hover {
+    color: rgb(0, 129, 129);
+}
+
+
+#navbar .content ul .cart-icon {
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.page__active {
+    color: rgb(0, 129, 129) !important;
+}
+
+#navbar .content .mobile {
+    position: relative;
+    padding: 10px;
+}
+
+#navbar .content .mobile .cart-icon #badge {
+    text-align: center;
+    background-color: red;
+    padding-top: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    color: aliceblue;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+
+/*---------------------------------------------------------  Header styles  --------------------------------------------------------*/
+
+
+#header .content header {
+    text-align: center;
+    background-image: url(../images/banner.png);
+    color: white;
+    padding-top: 100px;
+    padding: 100px;
+    margin: 45px auto;
+}
+
+#header .content header h1 {
+    font-size: 50px;
+}
+
+#header .content header h2 {
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.514);
+}
+
+
+/* -------------------------------------------------------- Who We Are styles------------------------------------------- */
+
+
+#who-we-are .content {
+    margin: 100px auto;
+}
+
+#who-we-are .content .box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#who-we-are .content .box img {
+    width: 500px;
+    margin: 0 30px;
+}
+
+#who-we-are .content .box .img img {
+    width: 100%;
+    margin: 0 30px;
+}
+
+#who-we-are .content .box h1 {
+    font-size: 40px;
+}
+
+#who-we-are .content .box .text p {
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.46);
+    margin: 15px 0;
+}
+
+#who-we-are .content .box .text h2 {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.508);
+    text-decoration: underline;
+}
+
+#who-we-are .content .box .text marquee {
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.508);
+    background-color: rgba(128, 128, 128, 0.537);
+    width: 500px;
+}
+
+#who-we-are .content .box .texts {
+    line-height: 100px;
+}
+
+/* --------------------------------------------   Features styles  ---------------------------------------------------- */
+
+
+
+#features .content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 100px auto;
+}
+
+#features .content div {
+    background-color: rgb(255, 255, 255);
+    width: 190px;
+    text-align: center;
+    border: rgba(0, 0, 0, 0.178) solid 1px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.06);
+    padding: 20px 0;
+
+}
+
+#features .content img {
+    background-color: white;
+    width: 130px;
+}
+
+
+
+#features .content div .one,
+#features .content div .two,
+#features .content div .three,
+#features .content div .four,
+#features .content div .five,
+#features .content div .sex {
+    font-size: 10px;
+    width: 65%;
+    margin: 20px auto;
+    padding: 10px 0;
+    border-radius: 5px;
+}
+
+
+#features .content div .one {
+    background-color: rgba(204, 148, 148, 0.154);
+    color: rgb(0, 129, 129);
+}
+
+#features .content div .two {
+    background-color: rgba(197, 204, 148, 0.154);
+    color: rgb(0, 129, 129);
+}
+
+#features .content div .three {
+    background-color: rgba(202, 148, 204, 0.154);
+    color: rgb(0, 129, 129);
+}
+
+#features .content div .four {
+    background-color: rgba(178, 148, 204, 0.154);
+    color: rgb(0, 129, 129);
+}
+
+#features .content div .five {
+    background-color: rgba(148, 168, 204, 0.154);
+    color: rgb(0, 129, 129);
+}
+
+#features .content div .sex {
+    background-color: rgba(148, 204, 156, 0.154);
+    color: rgb(0, 129, 129);
+}
+
+
+
+.contant4 {
+    text-align: center;
+    margin: 80px;
+}
+
+.contant4 h1 {
+    padding: 10px;
+
+}
+
+.contant4 h1 a {
+    color: white;
+    background-color: rgb(0, 119, 128);
+    text-align: center;
+    border-radius: 10px;
+    text-decoration: none;
+    padding: 15px;
+}
+
+
+/* ------------------------------------------  newletters style  --------------------------------------- */
+
+/* ------------------------------------------  newletters style  --------------------------------------- */
+
+
+#newsletters .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(../images/banner.png);
+    background-repeat: round;
+    background-position: top;
+    align-items: center;
+    margin: 100px auto;
+    padding: 100px
+}
+
+#newsletters .content .LiftSide h1 {
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+#newsletters .content .LiftSide p {
+    color: rgba(255, 255, 255, 0.411);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+#newsletters .content .LiftSide span {
+    font-size: 20px;
+    color: rgb(255, 217, 0);
+}
+
+#newsletters .content .RightSide {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+#newsletters .content .RightSide input {
+    width: 500px;
+    height: 65px;
+    border-radius: 5px 0px 0px 5px;
+    border: 1px rgb(158, 158, 158) solid;
+}
+
+#newsletters .content .RightSide .button {
+    height: 65px;
+    border-radius: 0px 5px 5px 0px;
+    background-color: rgb(0, 119, 128);
+    color: white;
+    width: 150px;
+    font-weight: bold;
+    border: 1px solid rgba(95, 158, 160, 0);
+}
+
+
+/* ------------------------------------------  footer style  --------------------------------------- */
+
+
+#footer {
+    margin-bottom: 100px;
+}
+
+#footer .content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 30px;
+
+}
+
+#footer .content .box1 img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+#footer .content .box1 h1 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+#footer .content .box1 p {
+    color: rgba(0, 0, 0, 0.603);
+
+}
+
+#footer .content .box2 header {
+    margin-bottom: 15px;
+}
+
+#footer .content .box2 p {
+    color: rgba(0, 0, 0, 0.603);
+}
+
+#footer .content .box4 header {
+    margin-bottom: 15px;
+}
+
+#footer .content .box4 p {
+    color: rgba(0, 0, 0, 0.603);
+
+}
+
+
+
+
+.cart-section {
+    width: 400px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    position: fixed;
+    top: 0;
+    right: -600px;
+    height: 100vh;
+    background-color: rgb(229, 221, 231);
+    box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+    transition: 1s;
+    z-index: 100;
+}
+
+.active {
+    transform: translateX(-600px);
+}
+
+#cart {}
+
+#cart .header {
+    border-radius: 5px;
+    width: 96%;
+    margin: 15px auto;
+    color: white;
+    background-color: rgb(0, 129, 129);
+    font-weight: bold;
+    border: #ffffff00 solid 1px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    padding: 12px;
+}
+
+#cart .header a {
+    color: white;
+    position: absolute;
+    top: 8px;
+    left: 9px;
+}
+
+#cart table {
+    width: 100%;
+    border-collapse: collapse;
+    white-space: nowrap;
+    margin: 30px 0;
+}
+
+#cart table img {
+    width: 70px;
+    border: solid rgba(0, 0, 0, 0.172) 1px;
+    box-shadow: 5px 5px 5px 5px rgb(0, 0, 0, 0, 06);
+}
+
+#cart table td:nth-child(1) {
+    width: 100px;
+    text-align: center;
+}
+
+#cart table td:nth-child(2) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(3) {
+    width: 250px;
+    text-align: center;
+}
+
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6) {
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input {
+    width: 70px;
+}
+
+#cart table thead {
+    border: solid 1px black;
+    border-left: none;
+    border-right: none;
+
+
+}
+
+#cart table thead td {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#cart table tbody td {
+    font-size: 13px;
+}
+
+
+
+
+/* ------------------------------------------  Add to cart style  --------------------------------------- */
+
+
+#add-to-cart .content .box-one {
+    text-align: center;
+    margin: 60px auto;
+}
+
+#add-to-cart .content .box-one h1 {
+    margin-bottom: 15px;
+}
+
+#add-to-cart .content .box-one input {
+    width: 60%;
+    outline: none;
+    border: 1px solid rgb(233 233 233);
+
+}
+
+#add-to-cart .content .box-one .button {
+    border-radius: 5px;
+    width: 113px;
+    color: white;
+    background-color: rgb(0, 129, 129);
+    font-weight: bold;
+    border: #ffffff00 solid 1px;
+    font-size: 15px;
+}
+
+
+#add-to-cart .content .box-two {
+    width: 85%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#add-to-cart .content .box-two h1 {
+    margin-bottom: 15px;
+}
+
+#add-to-cart .content .box-two .button {
+    border-radius: 5px;
+    width: 250px;
+    color: white;
+    background-color: rgb(0, 129, 129);
+    font-weight: bold;
+    border: #ffffff00 solid 1px;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#add-to-cart .content .box-two table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+#add-to-cart .content .box-two table td {
+    width: 50%;
+    border: 1px solid #b8b4b4;
+    font-size: 13px;
+}
+
+
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* portrait tablets and large phones, 600px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 600px) and (max-width:768px) {
+    .container {
+        margin: auto;
+        width: 600px;
+        background-color: rgba(251, 255, 0, 0);
+    }
+
+
+    nav ul a {
+        font-size: 12px;
+    }
+
+    nav ul {
+        font-size: 12px;
+    }
+
+    #navbar nav ul .cart-icon i {
+        font-size: 12px;
+    }
+
+    #main-header .content {
+        padding: 120px 0px 0px 0px;
+    }
+
+    #main-header .content .RightSide img {
+        width: 300px;
+    }
+
+    #main-header .content .LiftSide p {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    #main-header .content .LiftSide div strong {
+        background-image: url(../images/button.png);
+        background-position: center;
+        background-size: 190px;
+        background-color: transparent;
+        color: rgb(0, 129, 129);
+    }
+
+
+    #main-header .content .LiftSide h2 {
+        font-size: 8px;
+        margin-top: 13px;
+    }
+
+    #main-header .content .LiftSide div strong {
+        padding: 10px 31px 20px 53px;
+        font-size: 10px;
+    }
+
+    #products .content .content-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #featured-Products .content .content-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #featured-Products .content .content-box2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #offers-news .content {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin: 100px auto;
+        gap: 1rem;
+    }
+
+    #offers-news .content .LiftSide,
+    #offers-news .content .RightSide {
+        background-image: url(../images/b10.jpg);
+        background-size: cover;
+        width: 100%;
+        line-height: 55px;
+        padding: 30px;
+    }
+
+    #offers-news .content .LiftSide {
+        background-image: url(../images/b17.jpg);
+    }
+
+    #offers-news-part-two .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #offers-news-part-two .content .box1, #offers-news-part-two .content .box2, #offers-news-part-two .content .box3 {
+
+        width: 100%;
+        line-height: 40px;
+        padding: 20px;
+        height: 300px;
+    }
+
+    #newsletters .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image: url(../images/banner.png);
+        background-repeat: round;
+        background-position: top;
+        align-items: center;
+        margin: 100px auto;
+        padding: 50px;
+    }
+
+    #footer {
+        margin-bottom: 50px;
+        font-size: 10px;
+    }
+
+    #footer .content {
+        line-height: 20px;
+    }
+
+    #footer .content .box1 img {
+        width: 80px;
+        margin-bottom: 20px;
+    }
+
+    #footer .content .box1 h1 {
+        font-size: 10px;
+    }
+
+    #footer .content .box1 p {
+        color: rgba(0, 0, 0, 0.603);
+    }
+
+    #footer .content .box2 header {
+        margin-bottom: 15px;
+    }
+
+    #footer .content .box2 p {
+        color: rgba(0, 0, 0, 0.603);
+        width: 100px;
+    }
+
+    #footer .content .box4 header {
+        margin-bottom: 15px;
+    }
+
+    #footer .content .box4 p {
+        color: rgba(0, 0, 0, 0.603);
+    }
+
+    #footer .content .box4 {
+        width: 230px;
+    }
+
+    #newsletters .content .LiftSide h1 {
+        font-size: 25px;
+    }
+
+    #newsletters .content .LiftSide p {
+        color: rgba(255, 255, 255, 0.411);
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    #newsletters .content .LiftSide {
+        width: 100%;
+        text-align: center;
+    }
+
+    #repair-service {
+        width: 100%;
+        background-image: url(../banner/banner1.jpg);
+        margin: 100px auto;
+        background-repeat: space;
+        background-size: 1400px;
+        padding: 50px;
+    }
+
+    #who-we-are .content .box img {
+        width: 280px;
+        margin: 0;
+    }
+
+    #who-we-are .content .box h1 {
+        font-size: 25px;
+    }
+
+    #who-we-are .content .box .text p {
+        font-size: 12px;
+        margin: 10px 0;
+        width: 280px;
+    }
+
+    #who-we-are .content .box .text h2 {
+        font-size: 8px;
+        width: 280px;
+    }
+
+    #who-we-are .content .box .text marquee {
+        font-size: 13px;
+        width: 280px;
+    }
+
+    #navbar .content ul .links a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #000000;
+    }
+
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Medium devices (landscape tablets, 768px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .container {
+        margin: auto;
+        width: 768px;
+        background-color: rgba(77, 255, 0, 0);
+    }
+
+    nav ul a {
+        font-size: 12px;
+    }
+
+    nav ul {
+        font-size: 12px;
+    }
+
+    #navbar nav ul .cart-icon i {
+        font-size: 12px;
+    }
+
+    #main-header .content {
+        padding: 120px 0px 0px 0px;
+    }
+
+    #main-header .content .RightSide img {
+        width: 350px;
+    }
+
+    #main-header .content .LiftSide p {
+        font-size: 31px;
+        margin-top: 10px;
+    }
+
+    #main-header .content .LiftSide h2 {
+        font-size: 11px;
+        margin-top: 13px;
+    }
+
+    #main-header .content .LiftSide div strong {
+        padding: 12px 31px 20px 53px;
+        font-size: 13px;
+    }
+
+    #features .content div {
+        width: 250px;
+        padding: 20px 0;
+        margin: 5px 0;
+    }
+
+    #products .content header h1 {
+        font-size: 35px;
+    }
+
+    #products .content .content-box .t-shirtBox {
+        width: 180px;
+        margin-top: 50px;
+        padding: 15px;
+    }
+
+    #products .content .content-box .t-shirtBox p {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+
+    #products .content .content-box .t-shirtBox div {
+        font-size: 10px;
+    }
+
+    #products .content .content-box .t-shirtBox .cart-part h1 {
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+    #products .content .content-box .t-shirtBox h1 {
+        font-size: 10px;
+        margin-top: 21px;
+    }
+
+    #featured-Products .content header h1 {
+        font-size: 35px;
+    }
+
+    #featured-Products .content .content-box .t-shirtBox {
+        width: 180px;
+        margin-top: 50px;
+        padding: 15px;
+    }
+
+    #featured-Products .content .content-box .t-shirtBox p {
+        font-size: 12px;
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        background-color: rgb(248, 245, 248);
+        margin: 8px 0;
+    }
+
+    #featured-Products .content .content-box .t-shirtBox div {
+        font-size: 10px;
+        background-color: rgb(248, 245, 248);
+    }
+
+    #featured-Products .content .content-box .t-shirtBox .cart-part h1 {
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+    #featured-Products .content .content-box .t-shirtBox h1 {
+        font-size: 10px;
+        margin-top: 21px;
+    }
+
+
+    #featured-Products .content header h1 {
+        font-size: 35px;
+    }
+
+    #featured-Products .content .content-box2 .t-shirtBox {
+        width: 180px;
+        margin-top: 50px;
+        padding: 15px;
+    }
+
+    #featured-Products .content .content-box2 .t-shirtBox p {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+
+    #featured-Products .content .content-box2 .t-shirtBox div {
+        font-size: 10px;
+    }
+
+    #featured-Products .content .content-box2 .t-shirtBox .cart-part h1 {
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+
+    #featured-Products .content .content-box2 .t-shirtBox h1 {
+        font-size: 10px;
+        margin-top: 21px;
+    }
+
+    #offers-news .content .LiftSide,
+    #offers-news .content .RightSide {
+        background-image: url(../images/b17.jpg);
+        background-size: 450px;
+        width: 350px;
+        line-height: 40px;
+        padding: 30px;
+        height: 250px;
+    }
+
+    #offers-news .content .RightSide {
+        background-image: url(../images/b10.jpg);
+    }
+
+    #offers-news .content {
+        margin: 100px auto;
+
+    }
+
+    #offers-news .content .LiftSide h1 {
+        font-size: 10px;
+    }
+
+    #offers-news .content .LiftSide h2 {
+        font-size: 20px;
+    }
+
+    #offers-news .content .LiftSide p {
+        font-size: 10px;
+    }
+
+    #offers-news .content .LiftSide div {
+        font-size: 10px;
+    }
+
+
+    #offers-news .content .RightSide h1 {
+        font-size: 15px;
+    }
+
+    #offers-news .content .RightSide h2 {
+        font-size: 20px;
+
+    }
+
+    #offers-news .content .RightSide p {
+        font-size: calc(100px - 90px);
+    }
+
+    #offers-news .content .RightSide div {
+        font-size: 10px;
+        width: 80px;
+    }
+
+
+    #newsletters .content .LiftSide h1 {
+        font-size: 10px;
+    }
+
+    #offers-news-part-two .content .box1 h1,
+    #offers-news-part-two .content .box2 h1,
+    #offers-news-part-two .content .box3 h1 {
+        font-size: 10px;
+    }
+
+    #offers-news-part-two .content .box1,
+    #offers-news-part-two .content .box2,
+    #offers-news-part-two .content .box3 {
+        height: 200px;
+    }
+
+    #offers-news-part-two .content .box1 h2,
+    #offers-news-part-two .content .box2 h2,
+    #offers-news-part-two .content .box3 h2 {
+        font-size: 12px;
+    }
+
+    #newsletters .content .RightSide {
+        width: 300px;
+        height: 40px;
+    }
+
+    #newsletters .content .RightSide input {
+        width: 300px;
+        height: 40px;
+        font-size: 10px;
+    }
+
+    #newsletters .content .RightSide .button {
+        height: 40px;
+        width: 100px;
+        font-size: 10px;
+    }
+
+    #newsletters .content .LiftSide {
+        width: 600px;
+    }
+
+
+    #newsletters .content .LiftSide h1 {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #newsletters .content .LiftSide p {
+        color: rgba(255, 255, 255, 0.411);
+        font-weight: bold;
+        font-size: 10px;
+        line-height: 40px;
+    }
+
+    #newsletters .content .LiftSide span {
+        font-size: 10px;
+        color: rgb(255, 217, 0);
+    }
+
+    #footer {
+        margin-bottom: 100px;
+        font-size: 12px;
+    }
+
+    #footer .content {
+        line-height: 30px;
+    }
+
+    #footer .content .box1 img {
+        width: 100px;
+        margin-bottom: 20px;
+    }
+
+    #footer .content .box1 h1 {
+        font-size: 20px;
+    }
+
+    #footer .content .box1 p {
+        color: rgba(0, 0, 0, 0.603);
+    }
+
+    #footer .content .box2 header {
+        margin-bottom: 15px;
+    }
+
+    #footer .content .box2 p {
+        color: rgba(0, 0, 0, 0.603);
+    }
+
+    #footer .content .box4 header {
+        margin-bottom: 15px;
+    }
+
+    #footer .content .box4 p {
+        color: rgba(0, 0, 0, 0.603);
+    }
+
+    .fist-Img-box {
+        width: 100px;
+        display: flex;
+    }
+
+    .fist-Img-box img {
+        width: 100px;
+    }
+
+    #repair-service .content h2 {
+        font-size: 18px;
+    }
+
+    #who-we-are .content {
+        margin: 100px auto;
+    }
+
+    #who-we-are .content .box {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    #who-we-are .content .box img {
+        width: 45%;
+        margin: 0 30px;
+    }
+
+    #who-we-are .content .box .img img {
+        width: 100%;
+        margin: 0 30px;
+    }
+
+    #who-we-are .content .box h1 {
+        font-size: 40px;
+    }
+
+    #who-we-are .content .box .text {
+        width: 45%;
+    }
+
+    #who-we-are .content .box .text p {
+        font-size: 15px;
+        color: rgba(0, 0, 0, 0.46);
+        margin: 15px 0;
+    }
+
+    #who-we-are .content .box .text h2 {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.508);
+        text-decoration: underline;
+    }
+
+    #who-we-are .content .box .text marquee {
+        font-size: 13px;
+        color: rgba(0, 0, 0, 0.508);
+        background-color: rgba(128, 128, 128, 0.537);
+        width: 90%;
+    }
+
+    #who-we-are .content .box .texts {
+        line-height: 100px;
+    }
+
+    #navbar .content ul .links a {
+        text-decoration: none;
+        font-size: 13px;
+        color: #000000;
+    }
+
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/*     large laptops and desktops, 1200px and up    */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 1200px) {
+    .container {
+        margin: auto;
+        width: 1200px;
+        background-color: rgba(167, 140, 140, 0);
+    }
+
+}
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Extra small devices (phones, 600px and down) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media screen and (max-width: 600px) {
+    .container {
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Spartan", sans-serif;
+        background-color: rgba(229, 221, 231, 0);
+        overflow: scroll;
+    }
+
+    nav ul a {
+        font-size: 12px;
+    }
+
+    nav ul {
+        font-size: 12px;
+    }
+
+    #navbar nav ul .cart-icon i {
+        font-size: 12px;
+    }
+
+    #main-header .content {
+        padding: 120px 0px 0px 0px;
+        width: 100%;
+        padding: 0 20px;
+        padding-top: 80px;
+    }
+
+    #main-header .content .RightSide img {
+        width: 300px;
+    }
+
+    #main-header .content .LiftSide p {
+        font-size: 25px;
+        margin-top: 10px;
+    }
+
+    #main-header .content .LiftSide div strong {
+        background-image: url(../images/button.png);
+        background-position: center;
+        background-size: 190px;
+        background-color: transparent;
+        color: rgb(0, 129, 129);
+    }
+
+
+    #main-header .content .LiftSide h2 {
+        font-size: 8px;
+        margin-top: 13px;
+    }
+
+    #main-header .content .LiftSide div strong {
+        padding: 10px 31px 20px 53px;
+        font-size: 10px;
+    }
+
+    #products .content .content-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #featured-Products .content .content-box {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #featured-Products .content .content-box2 {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #offers-news .content {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        margin: 100px auto;
+        gap: 1rem;
+    }
+
+    #offers-news .content .LiftSide,
+    #offers-news .content .RightSide {
+        background-image: url(../images/b10.jpg);
+        background-size: cover;
+        width: 100%;
+        line-height: 55px;
+        padding: 30px;
+    }
+
+    #offers-news .content .LiftSide {
+        background-image: url(../images/b17.jpg);
+    }
+
+    #offers-news-part-two .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    #offers-news-part-two .content .box1, #offers-news-part-two .content .box2, #offers-news-part-two .content .box3 {
+
+        width: 100%;
+        line-height: 40px;
+        padding: 20px;
+        height: 300px;
+    }
+
+    #newsletters .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        background-image: url(../images/banner.png);
+        background-repeat: round;
+        background-position: top;
+        align-items: center;
+        margin: 100px auto;
+        padding: 50px;
+    }
+
+    #footer {
+        margin-bottom: 50px;
+        font-size: 10px;
+    }
+
+    #footer .content {
+        line-height: 20px;
+        width: 100%;
+        padding: 20px;
+        flex-direction: column;
+    }
+
+    #footer .content .box1 img {
+        text-align: center;
+        width: 100%;
+    }
+
+    #footer .content .box1 img {
+        width: 80px;
+        margin-bottom: 20px;
+    }
+
+    #footer .content .box1 h1 {
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+    }
+
+    #footer .content .box1 p {
+        color: rgba(0, 0, 0, 0.603);
+        text-align: center;
+
+    }
+
+    #footer .content .box2 header {
+        margin-bottom: 0px;
+    }
+
+    #footer .content .box2 p {
+        color: rgba(0, 0, 0, 0.603);
+        text-align: center;
+    }
+
+    #footer .content .box4 header {
+        margin-bottom: 15px;
+    }
+
+    #footer .content .box4 p {
+        color: rgba(0, 0, 0, 0.603);
+        text-align: center;
+
+    }
+
+    #footer .content .box4 header {
+        margin-bottom: 0px;
+    }
+
+    #footer .content .box1,
+    #footer .content .box2,
+    #footer .content .box4 {
+        width: 100%;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    #newsletters .content .LiftSide h1 {
+        font-size: 25px;
+    }
+
+    #newsletters .content .LiftSide p {
+        color: rgba(255, 255, 255, 0.411);
+        font-weight: bold;
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    #newsletters .content .LiftSide {
+        width: 100%;
+        text-align: center;
+    }
+
+    #repair-service {
+        width: 100%;
+        background-image: url(../banner/banner1.jpg);
+        margin: 100px auto;
+        background-repeat: space;
+        background-size: 1400px;
+        padding: 50px;
+    }
+
+    #features .content div {
+        background-color: rgb(255, 255, 255);
+        width: 170px;
+        text-align: center;
+        border: rgba(0, 0, 0, 0.178) solid 1px;
+        box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.06);
+        padding: 20px 0;
+        margin: 5px 0;
+    }
+
+    #products .content .content-box .t-shirtBox,
+    #featured-Products .content .content-box .t-shirtBox,
+    #featured-Products .content .content-box2 .t-shirtBox {
+        width: 167px;
+    }
+
+    #Products .content .content-box .t-shirtBox p,
+    #Products .content .content-box .t-shirtBox h1,
+    #Products .content .content-box .t-shirtBox div,
+    #Products .content .content-box .t-shirtBox .cart-part h1 {
+        font-size: 13px;
+    }
+
+    #featured-Products .content .content-box .t-shirtBox p,
+    #featured-Products .content .content-box .t-shirtBox h1,
+    #featured-Products .content .content-box .t-shirtBox div,
+    #featured-Products .content .content-box .t-shirtBox .cart-part h1 {
+        font-size: 13px;
+    }
+
+    #featured-Products .content .content-box2 .t-shirtBox p,
+    #featured-Products .content .content-box2 .t-shirtBox h1,
+    #featured-Products .content .content-box2 .t-shirtBox div,
+    #featured-Products .content .content-box2 .t-shirtBox .cart-part h1 {
+        font-size: 13px;
+    }
+
+    #offers-news .content .LiftSide, #offers-news .content .RightSide {
+        line-height: 35px;
+    }
+
+    #offers-news .content .LiftSide,
+    #offers-news .content .RightSide {
+        height: 250px;
+    }
+
+    #offers-news .content .LiftSide h2,
+    #offers-news .content .RightSide h2 {
+        font-size: 20;
+    }
+
+    #offers-news .content .LiftSide p,
+    #offers-news .content .RightSide p {
+        font-size: 10px;
+    }
+
+
+    #offers-news .content .LiftSide div,
+    #offers-news .content .RightSide div {
+        font-size: 10px;
+        line-height: 0;
+        padding: 15px 5px;
+        width: fit-content;
+    }
+
+    #newsletters .content .LiftSide h1 {
+        font-size: 20px;
+    }
+
+    #newsletters .content .LiftSide p {
+        font-size: 12px;
+    }
+
+    #newsletters .content .LiftSide span {
+        font-size: 12px;
+    }
+
+    #newsletters .content .RightSide input {
+        width: 356px;
+        height: 35px;
+    }
+
+    #newsletters .content .RightSide .button {
+        height: 35px;
+    }
+
+    #repair-service .content h1 {
+        color: white;
+        font-size: 12px;
+    }
+
+    #repair-service .content h2 {
+        color: white;
+        margin: 15px 0;
+        font-size: 17px;
+    }
+
+    #repair-service .content p {
+        width: 120px;
+        font-size: 11px;
+        padding: 10px;
+    }
+
+    #products .content header h1 {
+        font-size: 20px;
+    }
+
+    #products .content header h2 {
+        font-size: 10px;
+        margin: 10px 0;
+    }
+
+    #products .content header input {
+        width: 60%;
+        padding: 8px;
+        font-size: 7px;
+    }
+
+    #price-filter {
+        padding: 8px;
+        width: 25%;
+        font-size: 6px;
+    }
+
+    #featured-Products .content header h1 {
+        font-size: 15px;
+    }
+
+    #featured-Products .content header h2 {
+        font-size: 10px;
+        color: rgba(0, 0, 0, 0.281);
+        margin: 10px 0;
+    }
+
+    #main-header .content .LiftSide p {
+        font-size: 15px;
+    }
+
+    #main-header .content .RightSide img {
+        width: 220px;
+    }
+
+    #main-header .content .LiftSide h1 {
+        color: black;
+        margin: 0;
+        font-size: 15px;
+    }
+
+    #main-header .content .LiftSide div {
+        width: 100%;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+
+    #main-header .content .LiftSide div strong {
+        background-image: url(../images/button.png);
+        background-color: transparent;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 80px;
+        padding: 20px 20px 20px 20px;
+        margin-top: 0;
+        font-size: 6px;
+    }
+
+    #who-we-are .content .box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 2rem;
+    }
+
+    #navbar .content ul .links {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -600px;
+        height: 100vh;
+        background-color: rgb(229, 221, 231);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 30px 0 0 10px;
+        transition: 1s;
+        z-index: 100;
+    }
+
+    #navbar .content {
+        width: 100%;
+    }
+
+    #navbar .content ul i {
+        margin-bottom: 25px;
+    }
+
+    #navbar .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+
+    }
+
+    #navbar .content .img {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #navbar .content ul .links a {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+
+
+    .link__active {
+        transform: translateX(-300px);
+    }
+
+    #navbar .content .list__icon,
+    #navbar .content ul .close__icon {
+        display: block;
+        width: fit-content;
+    }
+
+    #navbar .content .mobile {
+        display: flex;
+        align-items: center;
+    }
+
+    #navbar .content .mobile .cart-icon {
+        display: flex;
+    }
+
+    #navbar nav ul .close__icon {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    #navbar .content .mobile {
+        position: relative;
+    }
+
+    #navbar .content .mobile .cart-icon {
+        margin: 0 10px
+    }
+
+    #navbar .content .mobile .cart-icon #badge {
+        text-align: center;
+        background-color: red;
+        padding-top: 3px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        color: aliceblue;
+        position: absolute;
+        top: 13px;
+        left: 40px;
+        font-size: 6px;
+        font-weight: bold;
+    }
+
+    #navbar .content ul .cart-icon {
+        position: relative;
+        cursor: pointer;
+        display: none;
+    }
+
+    #navbar .content a img {
+        width: 60px;
+    }
+
+    #navbar .content .mobile .cart-icon {
+        margin: 0 10px;
+        padding: 10px;
+    }
+
+    #header .content header h1 {
+        font-size: 37px;
+    }
+
+    #header .content header h2 {
+        font-size: 12px;
+    }
+
+    #pages .content h1 a {
+        color: white;
+        background-color: rgb(0, 119, 128);
+        text-align: center;
+        border-radius: 5px;
+        text-decoration: none;
+        padding-bottom: 15px;
+        font-size: 5px;
+    }
+}

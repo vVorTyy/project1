@@ -1,0 +1,698 @@
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+
+body{
+    width: 100%;
+    background-color: rgb(248, 245, 248);
+}
+.one{
+    background-color: rgb(229, 221, 231);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: rgb(229, 221, 231);
+    box-shadow: 0 10px 15px rgb(0, 0, 0 , 0.06);
+    padding: 30px 70px;
+    width: 100%;
+}
+nav ul .aa{
+    color: rgb(0, 129, 129);
+}
+
+nav img{
+    width: 100px;
+}
+
+nav ul{
+    margin: 0;
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+nav ul a{
+    text-decoration: none;
+    color: rgb(54, 54, 54);   
+    font-size: 17px
+
+}
+
+nav ul a:hover{
+    color: rgb(0, 129, 129);  
+}
+
+
+
+/* --------------------------------------------------------------------------------------------------- */
+
+
+.contant1{
+    display: flex;
+    flex-direction: row;
+    margin: 100px;
+}
+.contant1 .frist-img img{
+    width: 600px;
+}
+
+.contant1 .images img{
+    width: 145px;
+}
+
+
+.contant1 .box1{
+    width: 600px;
+}
+
+
+.contant1 .box2{
+    width: 900px;
+    padding: 50px;
+}
+
+.contant1 .box2 .texts{
+    line-height: 60px;
+}
+
+.contant1 .box2 .texts h1{
+    font-size: 13px;
+}
+
+.contant1 .box2 .texts h2{
+    font-size: 20px;
+}
+
+.contant1 .box2 .texts h3{
+    font-size: 30px;
+}
+
+.contant1 .box2 p{
+    margin: 30px 0;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.432);
+}
+
+.contant1 .box2 p span{
+    margin: 30px 0;
+    font-size: 20px; 
+    color: black;
+}
+
+
+
+.contant1 .box2 .cart-options{
+    display: flex;
+    flex-direction: row;
+    margin: 15px 0;
+}
+
+
+.contant1 .box2 .option-one{
+    width: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.contant1 .box2 .option-two{
+    width: 150px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(0, 129, 129);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+
+
+
+.contact2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(248, 245, 248);
+    padding: 50px;
+
+}
+
+.contact2 div{
+    background-color: rgb(255, 255, 255);
+    width: 250px;
+    text-align: center;
+    border: rgba(0, 0, 0, 0.178) solid 1px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.06);
+    padding: 20px 10px;
+
+}
+
+
+
+.contact2 img{
+    background-color: white;
+    width: 200px;
+}
+
+
+.contact2 div .one{
+    font-size: 15px;
+    background-color: rgba(204, 148, 148, 0.154);
+    width: 65%;
+    margin: 20px auto;
+    padding: 10px;   
+    border-radius: 5px;
+    color: rgb(0, 129, 129);
+}
+
+.contact2 div .two{
+    font-size: 15px;
+    background-color: rgba(197, 204, 148, 0.154);
+    width: 65%;
+    margin: 20px auto;
+    padding: 10px;   
+    border-radius: 5px;
+    color: rgb(0, 129, 129);
+}
+
+.contact2 div .three{
+    font-size: 15px;
+    background-color: rgba(202, 148, 204, 0.154);
+    width: 65%;
+    margin: 20px auto;
+    padding: 10px;   
+    border-radius: 5px;
+    color: rgb(0, 129, 129);
+}
+
+.contact2 div .four{
+    font-size: 15px;
+    background-color: rgba(178, 148, 204, 0.154);
+    width: 65%;
+    margin: 20px auto;
+    padding: 10px;   
+    border-radius: 5px;
+    color: rgb(0, 129, 129);
+}
+
+.contact2 div .five{
+    font-size: 15px;
+    background-color: rgba(148, 168, 204, 0.154);
+    width: 65%;
+    margin: 20px auto;
+    padding: 10px;   
+    border-radius: 5px;
+    color: rgb(0, 129, 129);
+}
+
+
+.contact2 div .sex{
+    font-size: 15px;
+    background-color: rgba(148, 204, 156, 0.154);
+    width: 65%;
+    margin: 20px auto;
+    padding: 10px;   
+    border-radius: 5px;
+    color: rgb(0, 129, 129);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact3 header{
+    text-align: center;
+    background-color: rgb(248, 245, 248);
+
+}
+.contact3 header h1{
+    background-color: rgb(248, 245, 248);
+    font-size: 50px;
+}
+.contact3 header h2{
+    background-color: rgb(248, 245, 248);
+    font-size: 15px;
+    color: rgba(0, 0, 0, 0.281);
+    padding: 20px;
+}
+
+.contact3-divs{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: rgb(248, 245, 248);
+}
+
+.contact3-divs .t-shirtBoxes{
+    border: rgba(0, 0, 0, 0.101) solid 1px;
+    box-shadow: 5px 5px 15px rgb(0, 0, 0, 0.06);
+    padding: 20px 20px;
+    width: calc(90%/4);
+    border-radius: 30px;
+    background-color: rgb(248, 245, 248);
+    margin-top: 50px;
+}
+
+.contact3-divs img{
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgba(223, 223, 223, 0.539);
+}
+
+.contact3-divs .t-shirtBoxes h1{
+    background-color: rgb(248, 245, 248);
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.438);
+    margin-top: 25px;
+}
+
+.contact3-divs .t-shirtBoxes p{
+    font-size:20px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    background-color: rgb(248, 245, 248);
+    margin: 10px 0;
+
+
+}.contact3-divs .t-shirtBoxes div{
+    font-size:20px;
+    color: rgb(209, 232, 0);
+    background-color: rgb(248, 245, 248);
+    width: fit-content;
+}
+
+.t-shirtBoxes .cart-part a{
+    color: rgb(0, 129, 129);
+    font-size: 30px;
+    background-color: rgba(0, 129, 129, 0.144) ;
+    border-radius:50px;
+    padding: 20px;
+    width: fit-content;
+}
+
+.contact3-divs .t-shirtBoxes .cart-part h1{
+    color: rgb(0, 129, 129);
+    width: fit-content;
+    font-size: 20px
+}
+
+
+
+
+
+.contact3-divs .t-shirtBoxes .cart-part{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.contact3-divs .t-shirtBoxes .cart-part div{
+    width: fit-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact4{
+    text-align: center;
+    background-image: url(images/banner.png);
+    background-size: cover;
+    padding: 100px;
+    margin: 100px 0;
+}
+
+.contact4 h1{
+    text-align: center;
+    color: white;
+}
+
+
+.contact4 h2{
+    text-align: center;
+    color: white;
+    font-size: 60px;
+    margin: 30px;
+}
+
+.contact4 h2 span{
+    text-align: center;
+    color: rgb(252, 44, 78);
+}
+
+
+.contact4 p{
+    text-align: center;
+    background-color: white;
+    color: black;
+    width: 300px;
+    margin: auto;
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact5{
+    text-align: center;
+    border: solid red 1px;
+}
+
+.contact5 div{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    border: solid red 1px;
+    margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact6{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    color: white;
+
+}
+.contact6 .box1{
+    background-image: url(images/b17.jpg);
+    background-size: cover;
+    width:calc(97%/2);
+    padding: 150px 30px;
+    line-height: 55px;
+}
+
+.contact6 .box1 h1{
+    font-size: 20px;
+}
+.contact6 .box1 h2{
+    font-size: 45px;
+    font-weight: bold;
+}
+.contact6 .box1 p{
+    font-size: 25px;
+}
+.contact6 .box1 div{
+    font-size: 20px;
+    width: 150px;
+    border: solid white 1px;
+    text-align: center;
+}
+.contact6 .box2{
+    background-image: url(images/b10.jpg);
+    background-size: cover;
+    background-position: right;
+    width:calc(97%/2);
+    padding: 150px 30px;
+    line-height: 55px;
+
+}
+
+
+.contact6 .box2 h1{
+    font-size: 20px;
+}
+.contact6 .box2 h2{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+.contact6 .box2 p{
+    font-size: 25px;
+
+
+}
+.contact6 .box2 div{
+    font-size: 20px;
+    width: 150px;
+    border: solid white 1px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.contact7{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    color: white;
+
+}
+
+
+.contact7 .box1{
+    background-image: url(images/b7.jpg);
+    background-size: cover;
+    width:calc(97%/3);
+    padding: 150px 30px;
+    line-height: 55px;
+}
+.contact7 .box1 h1{
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+.contact7 .box1 h2{
+    font-size: 25px;
+    color: rgb(252, 44, 78);
+}
+
+
+
+
+
+.contact7 .box2{
+    background-image: url(images/b4.jpg);
+    background-size: cover;
+    background-position: right;
+    width:calc(97%/3);
+    padding: 150px 30px;
+    line-height: 55px;
+}
+.contact7 .box2 h1{
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 10px;
+}
+.contact7 .box2 h2{
+    font-size: 25px;
+    color: rgb(252, 44, 78);
+    
+}
+
+
+
+
+
+.contact7 .box3{
+    background-image: url(images/b18.jpg);
+    background-size: cover;
+    background-position: right;
+    width:calc(97%/3);
+    padding: 150px 30px;
+    line-height: 55px;
+
+}
+.contact7 .box3 h1{
+    text-transform: uppercase;
+    font-size: 35px;
+    font-weight: 10px;
+}
+.contact7 .box3 h2{
+    font-size: 25px;
+    color: rgb(252, 44, 78);
+    
+}
+
+
+
+
+.contact8{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    background-image: url(images/banner.png); 
+    background-size: contain;
+    align-items: center;
+    padding: 50px 80px;
+}
+
+
+
+.contact8 .box1 h1{
+    color:white;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.contact8 .box1 p{
+    color:rgba(255, 255, 255, 0.411);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+.contact8 .box1 span{
+    font-size: 20px;
+    color: rgb(255, 217, 0);
+}
+
+.contact8 .box2{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding:0;
+
+}
+.contact8 .box2 input{
+    width: 500px;
+    height: 65px;
+    border-radius: 5px;
+    padding: 20px;
+}
+.contact8 .box2 .button{
+    height: 65px;
+    border-radius: 5px;
+    background-color: rgb(0, 119, 128);
+    color: white;
+    width: 150px;
+    font-weight: bold;
+}
+
+
+.contact9{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    line-height: 30px;
+}
+
+.contact9 .box1 img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.contact9 .box1 h1{
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+.contact9 .box1 p{
+    color: rgba(0, 0, 0, 0.603);
+
+}
+
+
+
+.contact9 .box2 header{
+    margin-bottom: 15px;
+}
+.contact9 .box2 p{
+    color: rgba(0, 0, 0, 0.603);
+}
+
+.contact9 .box4 header{
+    margin-bottom: 15px;
+}
+.contact9 .box4 p{
+    color: rgba(0, 0, 0, 0.603);
+
+}
+
+
+.fist-Img-box{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.fist-Img-box img{
+    border: solid rgb(0, 108, 112) 1px;
+    border-radius: 5px;
+    margin: 2px;
+}
+
+.second-Img-box{
+    margin: 10px 0;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,545 @@
+/* main styles */
+
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
+}
+body{
+    width: 100%;
+    background-color: rgb(248, 245, 248);
+}
+
+/* -------------------------------------------------------    Navbar styles   -----------------------------------------------------*/
+#navbar{
+    position: fixed;
+    background-color: rgb(229, 221, 231);
+    top: 0;
+    width: 100%;
+    z-index: 100;
+}
+
+#navbar .content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 15px;
+}
+
+
+
+#navbar .content a img{
+    width: 90px;
+}
+
+#navbar .content ul{
+    width: 49%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#navbar .content ul .links{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#navbar .content .list__icon,
+#navbar .content ul .close__icon 
+{
+    display: none;
+}
+#navbar .content ul .links a{
+    text-decoration: none;
+    font-size: 17px;
+    color: #000000;
+}
+
+#navbar .content ul a:hover{
+    color: rgb(0, 129, 129);  
+}
+
+
+#navbar .content ul .cart-icon{
+    position: relative;
+    cursor: pointer;
+}
+
+
+
+.page__active{
+    color: rgb(0, 129, 129) !important;
+}
+#navbar .content .mobile{
+    position: relative;
+    padding: 10px;
+} 
+
+#navbar .content .mobile .cart-icon #badge {
+    text-align: center;
+    background-color: red;
+    padding-top: 3px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    color: aliceblue;
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    font-size: 6px;
+    font-weight: bold;
+}
+
+
+/*---------------------------------------------------------  Header styles  --------------------------------------------------------*/
+#header{
+    margin: 0;
+}
+
+#header .content{
+    padding-top: 73px;
+}
+#header .content header{
+    text-align: center;
+    background-image: url(../images/banner.png); 
+    background-repeat: round;
+    background-size: 1400px;
+    color: white;
+    padding: 90px;
+}
+#header .content header h1{
+    font-size: 50px;
+}
+#header .content header h2{
+    font-size: 15px;
+    padding: 20px;
+    color: rgba(255, 255, 255, 0.514);
+}
+
+/* ---------------------------------------------------------  footer style  ---------------------------------------------------------- */
+
+#cart{
+    padding: 70px;
+}
+#cart table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    white-space: nowrap;
+}
+
+#cart table img{
+    width: 70px;
+}
+
+#cart table td:nth-child(1){
+    width: 100px;
+    text-align: center;
+}
+#cart table td:nth-child(2){
+    width: 150px;
+    text-align: center;
+}
+#cart table td:nth-child(3){
+    width: 250px;
+    text-align: center;
+}
+#cart table td:nth-child(4),
+#cart table td:nth-child(5),
+#cart table td:nth-child(6){
+    width: 150px;
+    text-align: center;
+}
+
+#cart table td:nth-child(5) input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+}
+
+#cart table thead{
+    border: solid 1px black;
+    border-left: none;
+    border-right: none;
+
+
+}
+#cart table thead td{
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 18px 0;
+}
+#cart table tbody td{
+    font-size: 13px;
+    padding-top: 18px;
+}
+
+#cart table tbody tr td i{
+    cursor: pointer;
+    font-size: 15px;
+}
+/*
+/* ---------------------------------------------------------  footer style  ---------------------------------------------------------- */
+
+#add-to-cart .content{
+    padding: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#add-to-cart .content .box-one{
+    width: 50%;
+}
+
+#add-to-cart .content .box-one h1{
+    margin-bottom: 15px;
+}
+
+#add-to-cart .content .box-one input{
+    width: 60%;
+    padding: 15px;
+    outline: none;
+    border: 1px solid rgb(233 233 233);
+
+}
+#add-to-cart .content .box-one .button{
+    padding: 14px;
+    border-radius: 5px;
+    width: 113px;
+    color: white;
+    background-color: rgb(0, 129, 129);
+    font-weight: bold;
+    border: #ffffff00 solid 1px;
+    font-size: 15px;
+}
+
+
+#add-to-cart .content .box-two{
+    width: 50%;
+    margin-bottom: 30px;
+    border: 1px solid #00000029;
+    padding: 30px;
+}
+
+#add-to-cart .content .box-two h1{
+    margin-bottom: 15px;
+}
+#add-to-cart .content .box-two .button{
+    padding: 14px;
+    border-radius: 5px;
+    width: 250px;
+    color: white;
+    background-color: rgb(0, 129, 129);
+    font-weight: bold;
+    border: #ffffff00 solid 1px;
+    font-size: 15px;
+}
+#add-to-cart .content .box-two table{
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px ;
+
+}
+#add-to-cart .content .box-two table td{
+    width: 50%;
+    border: 1px solid #e2e9e1;
+    padding: 10px;
+    font-size: 13px;
+}
+
+/* ---------------------------------------------------------  footer style  ---------------------------------------------------------- */
+
+#footer .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 100px;
+    line-height: 30px;
+}
+#footer .content .box1 img{
+    width: 100px;
+    margin-bottom: 20px;
+}
+#footer .content .box1 h1{
+    margin: 20px 0;
+    font-size: 20px;
+}
+#footer .content .box1 p{
+    color: rgba(0, 0, 0, 0.603);
+
+}
+#footer .content .box2 header{
+    margin-bottom: 15px;
+}
+#footer .content .box2 p{
+    color: rgba(0, 0, 0, 0.603);
+}
+#footer .content .box4 header{
+    margin-bottom: 15px;
+}
+#footer .content .box4 p{
+    color: rgba(0, 0, 0, 0.603);
+
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* portrait tablets and large phones, 600px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 600px) and (max-width:767px){
+    .container{
+        margin: auto;
+        width: 600px;
+        background-color: rgba(251, 255, 0, 0);
+    }
+    #main-header .content {
+        padding: 120px 0px 0px 0px;
+    }
+
+
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Spartan", sans-serif;
+        background-color: rgba(229, 221, 231, 0);
+        overflow: scroll;
+      }
+    }
+
+
+
+
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Medium devices (landscape tablets, 768px and up) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+
+    .container{
+        margin: auto;
+        width: 768px;
+        background-color: rgba(77, 255, 0, 0);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Spartan", sans-serif;
+        background-color: rgba(229, 221, 231, 0);
+        overflow: scroll;
+      }
+
+    }
+
+
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/*     large laptops and desktops, 1200px and up    */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+@media only screen and (min-width: 1200px) {
+    .container{
+        margin: auto;
+        width: 1200px;
+        background-color: rgba(167, 140, 140, 0);
+    }
+
+}
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* Extra small devices (phones, 600px and down) */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */
+/* ------------------------------------------------ */     
+
+
+@media screen and (max-width: 600px) {
+    .container{
+        margin: 0 auto;
+        width: 100%;
+        padding: 10px 15px;
+    }
+    * 
+    {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Spartan", sans-serif;
+        background-color: rgba(229, 221, 231, 0);
+        overflow: scroll;
+    }
+
+    #navbar .content ul .links{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        right: -600px;
+        height: 100vh;
+        background-color: rgb(229, 221, 231);
+        box-shadow: 0 40px 60px rgba(0, 0, 0, 0.1);
+        padding: 30px 0 0 10px;
+        transition: 1s;
+        z-index: 100;
+    } 
+    #navbar .content{
+        width: 100%;
+    }    
+    
+    #navbar .content ul i{
+        margin-bottom: 25px;
+    }
+    #navbar .content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        
+    }
+    #navbar .content .img{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    #navbar .content ul .links a {
+        font-size: 12px;
+        padding: 10px 0;
+    }
+    
+    
+    .link__active{
+        transform: translateX(-300px);
+    }   
+    
+    #navbar .content .list__icon,
+    #navbar .content ul .close__icon 
+    {
+        display: block;
+        width: fit-content;
+    }
+    
+    #navbar .content .mobile {
+        display: flex;
+        align-items: center;
+    }
+    #navbar .content .mobile .cart-icon{
+        display: flex;
+    }
+    
+    #navbar nav ul .close__icon{
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #navbar .content .mobile{
+        position: relative;
+    }    
+    
+    #navbar .content .mobile .cart-icon{
+        margin: 0 10px
+    }
+    #navbar .content .mobile .cart-icon #badge {
+        text-align: center;
+        background-color: red;
+        padding-top: 3px;
+        width: 12px;
+        height: 12px;
+        border-radius: 50%;
+        color: aliceblue;
+        position: absolute;
+        top: 13px;
+        left: 40px;
+        font-size: 6px;
+        font-weight: bold;
+    }
+    #navbar .content ul .cart-icon {
+        position: relative;
+        cursor: pointer;
+        display: none;
+    }
+    #navbar .content a img {
+        width: 60px;
+    }
+    #navbar .content .mobile .cart-icon {
+        margin: 0 10px;
+        padding: 10px;
+    }
+    #footer{
+        margin-bottom: 50px;
+        font-size: 10px;  
+    }
+
+    #footer .content{
+        line-height: 20px;
+        width: 100%;
+        padding: 20px;
+        flex-direction: column;
+    }
+    #footer .content .box1 img{
+        text-align: center;
+        width: 100%;
+    }    
+    
+    #footer .content .box1 img{
+        width: 80px;
+        margin-bottom: 20px;
+    }
+    #footer .content .box1 h1{
+        font-size: 10px;
+        text-align: center;
+        margin: 0;
+    }
+    #footer .content .box1 p{
+        color: rgba(0, 0, 0, 0.603);
+        text-align: center;
+
+    }
+    #footer .content .box2 header{
+        margin-bottom: 0px;
+    }
+    #footer .content .box2 p{
+        color: rgba(0, 0, 0, 0.603);
+        text-align: center;
+    }
+    #footer .content .box4 header{
+        margin-bottom: 15px;
+    }
+    #footer .content .box4 p{
+        color: rgba(0, 0, 0, 0.603);
+        text-align: center;
+
+    }
+    #footer .content .box4 header {
+        margin-bottom: 0px;
+    }
+    #footer .content .box1,
+    #footer .content .box2,
+    #footer .content .box4{
+        width: 100%;
+        text-align: center;
+        margin-top: 20px ;
+    }
+
+    }
+
+
+
